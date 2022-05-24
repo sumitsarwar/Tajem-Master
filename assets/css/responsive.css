@@ -1,0 +1,292 @@
+/* sm applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 13%;
+    }
+    .navbar-nav {
+        background: #373737;
+    }
+    .about-left {
+        text-align: center;
+    }
+    #about-part {
+        padding: 50px 0px;
+    }
+    .banner-text p {
+        padding: 30px 20px;
+    }
+    .banner-text {
+        padding: 7rem 0rem;
+    }
+    .banner-text h1::after {
+        top: 150%;
+    }
+    #banner-part {
+        height: 100vH;
+    }
+    .expertise-content {
+        margin: 20px;
+    }
+    .about-right h2 {
+        color: #46a3cc;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .about-right p {
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+    .about-right .btn-about {
+        margin-left: 34%;
+    }
+    .video-icon h4 {
+        margin-right: 15px;
+    }
+  .card{
+      margin: 20px;
+  }
+  .project-header-left h3 {
+	text-align: center;
+}
+.project-header-right p {
+	float: none;
+	text-align: center;
+}
+.project-header-left {
+	padding-bottom: 20px;
+}
+.project-image {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.employee_info_part_top p {
+	padding: 0px 0px;
+}
+.employee_info_arrow_right {
+	top: 75%;
+	right: 34%;
+}
+.employee_info_part_bottom {
+	padding-top: 15px;
+}
+.employee_info_slider_images {
+	position: relative;
+	left: 40%;
+	width: 500px;
+}
+.slick-center>.employee_info_part_bottom img {
+    /* transform: scale(1.5); */
+    transform: rotate(360deg);
+   
+  }
+#footer-part {
+	text-align: center;
+}
+.footer-middle {
+	margin-top: 20px;
+	padding: 0px 78px;
+}
+.footer-right {
+	margin-top: 25px;
+	padding: 0px 30px;
+}
+.footer-right .dsn {
+	width: 70%;
+}
+.footer-btm-right a {
+	justify-content: center;
+}
+}
+
+
+
+
+
+/* 
+/*Small device (landscape phone, 576px and up)*/
+@media (min-width:576px) and (max-width:767.98px){
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 13%;
+    }
+    .navbar-nav {
+        background: #373737;
+    }
+    .banner-text {
+        padding: 190px 0px 135px 0px;
+    }
+    .banner-text p {
+        padding: 55px 5px;
+       
+    }
+    .banner-text .btn-banner {
+        padding: 12px 120px;
+    }
+    .about-left {
+        text-align: center;
+    }
+    .about-right h2 {
+        color: #0e1214;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .slick-dots {
+        bottom: 20px;
+    }
+    .card {
+        margin: 15px;
+    }
+    .team_text_bottom a {
+        padding: 12px 120px;
+    }
+    .project-header-right p {
+        float: none;
+        text-align: center;
+    }
+    .project-header-left {
+        padding-bottom: 20px;
+    }
+    .project-header-left h3 {
+        text-align: center;
+    }
+    .project-image img {
+        padding: 15px;
+    }
+    .project-btn a {
+        padding: 12px 120px;
+    }
+    .employee_info_part_top p {
+        padding: 0px 0px;
+    }
+    .employee_info_arrow_left {
+        top: 78%;
+        left: 7%;
+    }
+    .employee_info_arrow_right {
+        top: 77%;
+        right: 6%;
+    }
+    .clients-info img {
+        max-width: 75%;
+    }
+    .clients-info img:hover {
+        transform: scale(1.4);
+    }
+    #footer-part {
+        text-align: center;
+    }
+    .footer-middle {
+        margin-top: 20px;
+        padding: 0px 78px;
+    }
+    .footer-right {
+        margin-top: 25px;
+        padding: 0px 30px;
+    }
+    .footer-btm-right a {
+        justify-content: center;
+    }
+    
+}
+
+/*Medium device (landscape phone, 786px and up)*/
+@media (min-width:768px) and (max-width:991.98px){
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 13%;
+    }
+    .navbar-nav {
+        background: #373737;
+    }
+    .about-left {
+        text-align: center;
+    }
+    .about-right h2 {
+        text-align: center;
+        margin-top: 45px;
+    }
+    .card {
+        margin: 15px;
+    }
+    .project-image img {
+        padding: 15px;
+    }
+    .employee_info_part_top p {
+        padding: 0px 0px;
+    }
+    .employee_info_arrow_left {
+        top: 76%;
+        left: 12%;
+    }
+    .employee_info_arrow_right {
+        top: 75%;
+        right: 15%;
+    }
+    .clients-info img:hover {
+        transform: scale(1.5);
+    }
+    .footer-right {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .footer-right .dsn {
+        width: 620px;
+        float: left;
+        margin-right: 10px;
+    }
+    .footer-right ul li {
+        font-size: 40px;
+        margin: 0px 20px;
+    }
+    .footer-btm-left {
+        text-align: center;
+    }
+    .footer-btm-right a {
+        justify-content: center;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+@media(min-width:992px) and (max-width:1199.98px){
+    .card {
+        margin: 15px;
+    }
+    .employee_info_arrow_left {
+        top: 77%;
+        left: 21%;
+    }
+    .employee_info_arrow_right {
+        top: 77%;
+        right: 23%;
+    }
+    .clients-info img {
+        max-width: 75%;
+    }
+    .clients-info img:hover {
+        transform: scale(1.4);
+    }
+    .footer-right .dsn {
+        width: 220px;
+    }
+    .footer-right ul li {
+        font-size: 30px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media(min-width: 1200px){
+    .card {
+        margin: 15px;
+    }
+    
+}
+
